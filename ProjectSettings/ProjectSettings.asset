@@ -459,8 +459,13 @@ PlayerSettings:
   XboxOneAllowedProductIds: []
   XboxOnePersistentLocalStorageSize: 0
   vrEditorSettings: {}
-  cloudServicesEnabled: {}
-  cloudProjectId: 73067666-94a9-4927-8b8c-2827d11d8224
+  cloudServicesEnabled:
+    Build: 0
+    Collab: 0
+    ErrorHub: 0
+    Hub: 0
+    UNet: 1
+  cloudProjectId: 8e6f09e7-0a6b-47dd-9b5f-ff8374759ffc
   projectName: TestFor3DGame
-  organizationId: donnanie08
+  organizationId: zapragh
   cloudEnabled: 0
