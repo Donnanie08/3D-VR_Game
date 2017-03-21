@@ -42,12 +42,15 @@ namespace UnityStandardAssets.Characters.FirstPerson
         private bool m_Jumping;
         private AudioSource m_AudioSource;
 
+<<<<<<< HEAD
 		public GameObject coconut;
 		public Transform throwObj;
 		private int power;
 		public int powerLevel;
 		public int powerInc;
 
+=======
+>>>>>>> 6a87bd433844f9dcc97817b391deb08b159f631f
         // Use this for initialization
         private void Start()
         {
@@ -61,7 +64,10 @@ namespace UnityStandardAssets.Characters.FirstPerson
             m_Jumping = false;
             m_AudioSource = GetComponent<AudioSource>();
 			m_MouseLook.Init(transform , m_Camera.transform);
+<<<<<<< HEAD
 			power = powerLevel;
+=======
+>>>>>>> 6a87bd433844f9dcc97817b391deb08b159f631f
         }
 
 
@@ -88,6 +94,7 @@ namespace UnityStandardAssets.Characters.FirstPerson
             }
 
             m_PreviouslyGrounded = m_CharacterController.isGrounded;
+<<<<<<< HEAD
 
 			if (Input.GetKey (KeyCode.Mouse0)) {
 				//print ("key down" + power);
@@ -112,6 +119,10 @@ namespace UnityStandardAssets.Characters.FirstPerson
 				, ForceMode.Force);
 			//print ("power: " + power);
 		}
+=======
+        }
+
+>>>>>>> 6a87bd433844f9dcc97817b391deb08b159f631f
 
         private void PlayLandingSound()
         {
