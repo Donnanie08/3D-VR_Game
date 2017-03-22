@@ -3,13 +3,9 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-<<<<<<< HEAD
   tags:
   - terra
   - boxy
-=======
-  tags: []
->>>>>>> 6a87bd433844f9dcc97817b391deb08b159f631f
   layers:
   - Default
   - TransparentFX
