@@ -69,6 +69,8 @@ namespace UnityStandardAssets.Characters.FirstPerson
         private void Update()
         {
             RotateView();
+
+			/*
             // the jump state needs to read here to make sure it is not missed
             if (!m_Jump)
             {
@@ -88,8 +90,9 @@ namespace UnityStandardAssets.Characters.FirstPerson
             }
 
             m_PreviouslyGrounded = m_CharacterController.isGrounded;
+			*/
 
-			if (Input.GetKey (KeyCode.Mouse0)) {
+			if (Input.GetKey (KeyCode.Space)) {
 				//print ("key down" + power);
 				if (power < 2000) {
 					//print ("add power");
@@ -97,7 +100,7 @@ namespace UnityStandardAssets.Characters.FirstPerson
 				}
 			} 
 
-			if (Input.GetKeyUp (KeyCode.Mouse0)) {
+			if (Input.GetKeyUp (KeyCode.Space)) {
 				fire ();
 				power = powerLevel;
 			}
