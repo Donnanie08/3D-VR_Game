@@ -8,12 +8,13 @@ public class PauseGame : MonoBehaviour {
 	//public Transform canvas;
 	public Transform Player;
 	public GameObject pauseButton, pauseMenu;
+	public static bool isPaused;
 
 
 	void Start()
 	{
 		OnUnPause ();
-
+		isPaused = false;
 	}
 
 	/*
@@ -29,13 +30,14 @@ public class PauseGame : MonoBehaviour {
 		pauseButton.SetActive (false);
 		pauseMenu.SetActive (true);
 		Time.timeScale = 0;
+		isPaused = true;
 	}
 
 	public void OnUnPause(){
 		pauseButton.SetActive (true);
 		pauseMenu.SetActive (false);
 		Time.timeScale = 1;
-
+		isPaused = false;
 	}
 	/*
 	public void Pause(){
