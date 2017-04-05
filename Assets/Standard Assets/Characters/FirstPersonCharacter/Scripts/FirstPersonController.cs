@@ -66,7 +66,7 @@ namespace UnityStandardAssets.Characters.FirstPerson
 
 
         // Update is called once per frame
-        private void Update()
+        void Update()
         {
             RotateView();
 
