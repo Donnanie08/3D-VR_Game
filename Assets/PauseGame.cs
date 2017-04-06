@@ -17,14 +17,14 @@ public class PauseGame : MonoBehaviour {
 		isPaused = false;
 	}
 
-	/*
+
 	// Update is called once per frame
 	void Update () {
 		if (Input.GetKeyDown (KeyCode.Escape)) {
-			Pause ();
+			OnPause ();
 		}
 	}
-	*/
+
 
 	public void OnPause(){
 		pauseButton.SetActive (false);
