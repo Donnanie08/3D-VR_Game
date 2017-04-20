@@ -50,6 +50,7 @@
      <Compile Include="Assets\GameScripts\CocoBehavior.cs" />
      <Compile Include="Assets\GameScripts\CocoShoot.cs" />
      <Compile Include="Assets\GameScripts\FirstPersonBehavior.cs" />
+     <Compile Include="Assets\GameScripts\HUD.cs" />
      <Compile Include="Assets\GameScripts\TerrainBehavior.cs" />
      <Compile Include="Assets\MainMenu.cs" />
      <Compile Include="Assets\NatureStarterKit2\Standard Assets\Effects\ImageEffects\Scripts\Antialiasing.cs" />

@@ -29,7 +29,7 @@ public class HUD : MonoBehaviour {
 			score2Beat.text = "Score to Beat Level: 4800";
 		} else if ((TerrainBehavior.level) == 2) {
 			score2Beat.text = "Score to Beat Level: 3000";
-		} else if ((TerrainBehavior.level) == 2) {
+		} else if ((TerrainBehavior.level) == 3) {
 			score2Beat.text = "Score to Beat Level: 3000";
 		}
 	}

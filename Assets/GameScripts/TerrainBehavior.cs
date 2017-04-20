@@ -40,17 +40,22 @@ public class TerrainBehavior : MonoBehaviour {
 
 		if (Input.GetKey (KeyCode.Space)) {
 			//print ("key down" + power);
-			if (power < 2000) {
-				//print ("add power");
-				power += powerInc;
-			}
+			if (coconutNum > 0) {
+				if (power < 2000) {
+					//print ("add power");
+					power += powerInc;
+				}
+			} else
+				power = 500;
 		} 
 
 		if (Input.GetKeyUp (KeyCode.Space)) {
 			//fire ();
 			//power = powerLevel;
-			power = 500;
-			coconutNum--;
+			if (coconutNum > 0) {
+				power = 500;
+				coconutNum--;
+			}
 		}
 	}
 
